@@ -6,7 +6,9 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+    height: 100vh;
+    
+    
 }
 
 div {
@@ -18,7 +20,8 @@ div {
 }
 
 .transparent {
-	background-color: transparent;
+    background-color: transparent;
+   
 }
 
 #trap-one {
@@ -67,5 +70,7 @@ div {
 	border-bottom: 24px solid rgba(0,0,0,0.5);
 	border-left: 14px solid transparent;
 	border-right: 14px solid transparent;
-	transform: rotate(120deg) translate(2%,186%);
+    transform: rotate(120deg) translate(2%,186%);
+    
+    
 }
