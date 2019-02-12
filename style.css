@@ -11,9 +11,19 @@
 	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
   /* There is a CSS code which forces our navigation panel to be fixed in one place: */
 }
-.fixed-nav-bar li, .fixed-nav-bar a { 
+.fixed-nav-bar li{ 
     height: 50px;
     line-height: 50px;
+    display: inline-flex;
+    padding-left: 2px;
+    
+  }
+
+.fixed-nav-bar a { 
+    height: 50px;
+    line-height: 50px;
+ 
+    
   }
   .menu {
     width: 90%;
@@ -39,9 +49,20 @@
   }
   .show {
     background-image: url(down-arrow-icon.png);
+    opacity:0.5;
+ filter:alpha(opacity=0);
+ -moz-opacity: O.S;
+ 
+
   }
   .hide {
     background-image: url(up-arrow-icon.png);
+    opacity:0.5;
+ filter:alpha(opacity=0);
+ -moz-opacity:O.S;
+  
+ 
+    
   }
   
   @media only screen and (max-width: 800px) {
@@ -55,7 +76,10 @@
       width: 100%;
       margin-top: 50px;
       background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-	  background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+      background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+      opacity:0.5;
+ filter:alpha(opacity=0);
+ -moz-opacity:O.S;
     }
     .menu-items li {
       display: block;
