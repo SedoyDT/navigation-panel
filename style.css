@@ -1,9 +1,13 @@
 .fixed-nav-bar {
-  position: fixed;
+  position: fixed; 
+  /* When we establish position value to equal fixed the panel is positioned concerning the field of viewing. It also allows the panel to remain on one place: */
   top: 0;
-  left: 0;
+  left: 0;      
+  /* 0, we avoid undesirable emergence of spaces on the parties of the panel of navigation.                 */
   z-index: 9999;
   width: 100%;
   height: 50px;
-  background-color: #00a087;
+  background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+	background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+  /* There is a CSS code which forces our navigation panel to be fixed in one place: */
 }
