@@ -50,8 +50,8 @@
   .show {
     background-image: url(down-arrow-icon.png);
     opacity:0.5;
- filter:alpha(opacity=0);
- -moz-opacity: O.S;
+    filter:alpha(opacity=0);
+    -moz-opacity: O.S;
  
 
   }
